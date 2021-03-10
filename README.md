@@ -17,5 +17,5 @@ There is an extensive readme file provided within the zipped package.
 
 Unzip to use.
 
-Note:  PSHELL scripts are open source. PowerShell and PWSH 7.0 is required.  Sync64.exe for windows should be installed and manually run once for FS sync.
+Note:  PSHELL scripts are open source. PowerShell and PWSH 7.0 is required.  Sync64.exe for windows should be installed and manually run once for FS sync. Powershell is solely used for proper Restful API to/from Element and for calling FS sync. Otherwise the entire software is written in ANSI C and LUA.  The SolidFire Powershell cli toolkit are not used. This is so the DPGLUE platform is portable and usable for myriad of platforms.  The goal of DPGLUE is around Data protections. It can execute the Element integration on behalf of other app "plugins" too. 
 
