@@ -1,3 +1,6 @@
+DPGLUE by MjK
+======================
+
 This version is used for commandline.
 
 It is not used with SnapCenter !
